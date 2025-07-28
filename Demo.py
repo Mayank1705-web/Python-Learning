@@ -1,0 +1,1 @@
+print("ASCII of a: "+ ord(a))
