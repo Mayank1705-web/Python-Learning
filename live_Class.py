@@ -1,7 +1,5 @@
-n1 = [10, 20, 30, 40, 50, 60]
-i = 0
-sum = 0
-while i < len(n1):
-    sum =  sum +  n1[i]
-    i += 1
-print("The sum of elements of the list is ", sum) 
+n1 = (10, 20, 30, 40, 50)
+n1_list = list(n1)
+n1_list[0], n1_list[-1] = n1_list[-1], n1_list[0]
+n1 = tuple(n1_list)
+print("The swapped tuple is ", n1)
