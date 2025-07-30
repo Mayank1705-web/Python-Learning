@@ -1,1 +1,0 @@
-print("Total cost is $",6*(300*150))
